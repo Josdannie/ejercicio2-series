@@ -251,3 +251,23 @@ nav a:hover {
     background: #d9284b;
     transform: translateY(-2px);
 }
+
+@media (max-width: 700px) {
+
+    .serie-info {
+        border-left: none;
+        border-top: 3px solid #ff375f;
+    }
+
+    .serie-info h2 {
+        font-size: 30px;
+    }
+
+    .intro {
+        padding: 15px;
+    }
+
+    .serie-info p {
+        font-size: 15px;
+    }
+}
