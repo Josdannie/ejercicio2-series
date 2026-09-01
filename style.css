@@ -190,3 +190,7 @@ footer p:last-child {
 .serie-info {
     border-left: 3px solid #ff375f;
 }
+
+.serie-info h2 {
+    letter-spacing: 1px;
+}
