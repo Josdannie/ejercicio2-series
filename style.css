@@ -158,3 +158,31 @@ footer p:first-child {
 footer p:last-child {
     color: #888;
 }
+
+@media (max-width: 700px) {
+
+    header {
+        padding: 55px 20px;
+    }
+
+    header h1 {
+        font-size: 36px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    .serie {
+        grid-template-columns: 1fr;
+    }
+
+    .serie img {
+        height: 300px;
+    }
+
+    .serie-info {
+        padding: 25px;
+    }
+}
