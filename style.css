@@ -186,3 +186,7 @@ footer p:last-child {
         padding: 25px;
     }
 }
+
+.serie-info {
+    border-left: 3px solid #ff375f;
+}
