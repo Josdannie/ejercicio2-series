@@ -141,3 +141,20 @@ main {
 .serie-info h3 {
     margin-top: 30px;
 }
+
+footer {
+    background: #15151b;
+    text-align: center;
+    padding: 45px 20px;
+    border-top: 1px solid #292934;
+}
+
+footer p:first-child {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+footer p:last-child {
+    color: #888;
+}
