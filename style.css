@@ -194,3 +194,7 @@ footer p:last-child {
 .serie-info h2 {
     letter-spacing: 1px;
 }
+
+.serie-info p {
+    max-width: 600px;
+}
