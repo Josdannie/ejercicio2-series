@@ -214,3 +214,14 @@ footer p:last-child {
     background: rgba(255, 55, 95, 0.12);
     color: #ff375f;
 }
+
+nav a {
+    padding: 9px 12px;
+    border-radius: 7px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background: #ff375f;
+    color: white;
+}
