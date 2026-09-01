@@ -198,3 +198,19 @@ footer p:last-child {
 .serie-info p {
     max-width: 600px;
 }
+
+.serie img {
+    transition: transform 0.5s ease;
+}
+
+.serie:hover img {
+    transform: scale(1.03);
+}
+
+.serie-info span {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    background: rgba(255, 55, 95, 0.12);
+    color: #ff375f;
+}
