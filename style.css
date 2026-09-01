@@ -84,3 +84,43 @@ main {
 .intro p:last-child {
     color: #aaa;
 }
+
+.serie {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background: #17171d;
+    border-radius: 18px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+}
+
+.serie img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+}
+
+.serie-info {
+    padding: 40px;
+}
+
+.serie-info span {
+    color: #ff375f;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.serie-info h2 {
+    font-size: 34px;
+}
+
+.serie-info p {
+    color: #c8c8c8;
+    line-height: 1.7;
+}
+
+.serie-info h3 {
+    color: white;
+}
