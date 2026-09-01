@@ -12,3 +12,26 @@ body {
     background: #0b0b0f;
     color: white;
 }
+
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #160b1f, #5b164f, #101b3d);
+}
+
+.logo {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #ff375f;
+}
+
+header h1 {
+    font-size: 52px;
+    margin: 15px 0;
+}
+
+header p:last-child {
+    color: #d5d5d5;
+    font-size: 18px;
+}
